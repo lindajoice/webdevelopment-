@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>One Page Layout</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+            background-color: rgb(6, 6, 132);
+		}
+		
+		/* Navigation styles */
+		nav {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		nav ul li {
+			margin: 0 10px;
+		}
+		
+		nav ul li a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		
+		/* Header styles */
+		header {
+			background-image: url('header-bg.jpg');
+			background-size: cover;
+			background-position: center;
+			height: 600px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		
+		header h1 {
+			font-size: 50px;
+			color: #fff;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+			text-shadow: 2px 2px #333;
+		}
+		
+		header p {
+			font-size: 24px;
+			color: #fff;
+			text-align: center;
+			margin: 20px 0 0 0;
+			padding: 0;
+			text-shadow: 2px 2px #333;
+		}
+		
+		/* Main content styles */
+		.main-content {
+			background-color: #fff;
+			padding: 50px;
+		}
+		
+		/* Footer styles */
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		footer p {
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<header>
+		<h1>Welcome to our website</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	</header>
+	
+	<div class="main-content">
+		<h2>Our Services</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut quam ac dolor sodales volutpat eget in dolor. Sed vel sodales magna, id placerat felis.</p>
+		<ul>
+			<li>Service 1</li>
+			<li>Service 2</li>
+			<li>Service 3</li>
+		</ul>
+	</div>
+	
+	<footer>
+		<p>&copy; 2023 One Page Layout. All rights reserved.</p>
+	</footer>
+</body>
+</html>
